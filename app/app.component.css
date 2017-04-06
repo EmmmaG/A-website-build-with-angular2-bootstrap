@@ -1,0 +1,47 @@
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+
+}
+
+.navbar-custom .navbar-brand {
+  color: #F9BF3B;
+  font-family: "Kaushan Script", Helvetica, Arial, cursive;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #E9AD1F;
+}
+
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+
+.navbar-custom .navbar-toggle {
+  background-color: #F9BF3B;
+  border-color: #F9BF3B;
+  font-family: "Montserrat",  Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #222222;
+  font-size: 12px;
+}
+.nav a {
+    color: #fff;
+    font-size:1em;
+}
+.nav a:hover {
+    color: #F9BF3B;
+    font-size: 1.1em;
+}
+.nav a:focus {
+    color: #E9AD1F;
+    font-size: 1.1em;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2em;
+}

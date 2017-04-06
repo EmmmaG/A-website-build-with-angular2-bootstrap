@@ -1,0 +1,26 @@
+.para-like {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url(../../assets/imgs/par.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #F9BF3B;
+    background-attachment: fixed;
+}
+
+.para-like .overlay {
+    min-height:200px;
+    background: rgba(15, 15, 15, 0.6);
+    font-size:3em; 
+}
+
+.para-text {
+    font-family: "Kaushan Script", Helvetica, Arial, cursive;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+.para-text p {
+    padding-top:10px;
+}

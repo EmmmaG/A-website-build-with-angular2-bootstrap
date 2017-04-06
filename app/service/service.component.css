@@ -1,0 +1,32 @@
+.service-area {
+    margin-top: 5px;
+  
+}
+
+.page-header{
+    text-align: center;
+    font-family: "Francois One", Helvetica, Arial, cursive;
+}
+
+.panel-heading  {
+     background-color: #222222;
+	 color: #F9BF3B;
+     padding: 10px 15px;
+     border-bottom: 1px solid transparent;
+     border-top-right-radius: -1;
+     border-top-left-radius: -1;
+}
+.panel-heading a {
+     margin-top: -20px;
+     font-size: 15px;
+	 color: #F9BF3B;
+}
+.panel-heading a:hover {
+     margin-top: -20px;
+     font-size: 15px;
+	 color: #E9AD1F;
+}
+
+
+
+

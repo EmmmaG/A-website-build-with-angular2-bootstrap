@@ -1,0 +1,50 @@
+
+
+.pad-set {
+    padding-top:50px;
+     padding-bottom:50px;
+}
+
+.pad-set h1 {
+    font-family: "Francois One", Helvetica, Arial, cursive;
+}
+
+.creative-txt {
+    padding-bottom:30px;
+    padding-top:30px;
+}
+.creative-txt h1{
+    font-family: "Francois One", Helvetica, Arial, cursive;
+}
+
+.creative-txt p {
+    padding-top:10px;
+}
+
+.vedio-style {
+    border: 0px;
+    width: 100%;
+    min-height: 300px;
+    margin-top: -15px;
+}
+
+.black {
+    color: #222222;
+}
+
+.yellow {
+    color: #F9BF3B;
+}
+
+span:hover .yellow {
+    color: #222222;
+}
+
+span:hover .black {
+    color: #F9BF3B;
+}
+
+.label-txt {
+    font-family: "Kaushan Script", Helvetica, Arial, cursive;
+    font-size: 1.5em;
+}

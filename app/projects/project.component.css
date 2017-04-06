@@ -1,0 +1,110 @@
+.head-line {
+  font-family: "Francois One", Helvetica, Arial, cursive;
+}
+
+#portfolio{
+    margin-top: 54px;
+    text-align: center;
+}
+
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: #F9BF3B;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease 0.5s;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 0.6;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 40%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+#portfolio .portfolio-item .portfolio-caption h4 {
+  text-transform: none;
+  margin: 0;
+}
+
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+.btn-primary {
+  color: white;
+  background-color: #F9BF3B;
+  border-color: #F9BF3B;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: #E9AD1F;
+    border-color: #E9AD1F;
+}
+
+.btn-primary:focus {
+    color: white;
+    background-color: #E9AD1F;
+    border-color: #E9AD1F;
+    outline: none;
+}
+.text-muted {
+  color: #777777;
+}
+
+.portfolio-modal .modal-content {
+  border-radius: 10px 10px 10px 10px;
+  background-clip: border-box;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  min-height: 100%;
+  padding: 1px 0;
+  text-align: center;
+}
+
+.portfolio-modal .modal-content h2 {
+  font-family: "Francois One", Helvetica, Arial, cursive;
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+.portfolio-modal .modal-content p {
+  margin-bottom: 5px;
+}
+
+.portfolio-modal .modal-content img {
+  margin-bottom: 5px;
+}

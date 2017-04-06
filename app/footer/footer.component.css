@@ -1,0 +1,29 @@
+.footer-sec {
+    margin-top:30px;
+    padding-top:50px;
+    color:#F9BF3B;
+    background:#222222;
+    padding-bottom:20px;    
+}
+.social-icons{
+     text-align: center;
+}
+
+.social-icons li {
+	display: inline;
+	margin: 2px;
+   
+}
+
+.social-icons li a {
+	font-size: 30px;
+	color: #F9BF3B;
+    padding: 10px 10px 7px;
+}
+
+.social-icons li a:hover {
+	text-decoration: none;
+    color: #E9AD1F;
+}
+
+

@@ -1,0 +1,12 @@
+.contact-info {
+    margin-top: 54px;
+    padding: 4px 0;
+    text-align: center; 
+    font-family: "Francois One", Helvetica, Arial, cursive;
+}
+
+.contact-map iframe{
+    border:none;
+    width:100%;
+    height:300px;
+}

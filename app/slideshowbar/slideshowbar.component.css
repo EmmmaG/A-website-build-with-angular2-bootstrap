@@ -1,0 +1,23 @@
+.slideshowbar {
+    color:#F9BF3B;
+    background:#222222;
+    padding-bottom:54px;
+    
+    
+}
+.slideshowbar i {
+    padding-bottom:15px;
+}
+
+.slideshowbar .txt-block {
+    padding-top:50px;
+}
+
+.slideshowbar h3 {
+    font-weight:800;
+    font-size:20px;
+}
+
+.slideshowbar p {
+    padding-right:30px;
+}
